@@ -7,21 +7,21 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-blue-200">
+<body class="bg-gray-200">
 
   <!-- Navbar -->
   <nav class="nav-bar bg-black h-20 flex justify-between items-center">
     <div class="title text-white text-4xl ml-7 font-bold cursor-pointer">
       <h1>Instrufy</h1>
     </div>
-    <button class="login bg-blue-700 px-5 text-white hover:scale-105 transition-transform hover:bg-blue-900 h-12 mr-7 font-bold rounded-xl">Login</button>
+    <button class="login bg-black px-5 text-white hover:scale-105 transition-transform hover:bg-white hover:text-black h-12 mr-7 font-bold rounded-xl">Login</button>
   </nav>
 
   <!-- Main Content -->
   <main class="container bg-gray-200 px-16 py-2 mt-6 rounded-3xl flex-col justify-center items-center mx-auto max-w-2xl">
 
     <!-- Welcome Text Box -->
-    <div class="text-box bg-gray-300 mx-auto max-w-3xl rounded-2xl p-6">
+    <div class="text-box  mx-auto max-w-3xl rounded-2xl p-6">
       <h1 class="text-3xl font-bold text-center mb-4">🎶 Welcome to Instrufy</h1>
       <div class="text-m text-black text-left">
         <p class="text-center font-semibold">Instrufy – Where Your Voice Becomes Music</p>
@@ -37,8 +37,8 @@
     </div>
 
     <!-- Vocal Playback Section -->
-    <div class="record-demo flex mt-5 p-2 bg-gray-400 justify-center gap-12 items-center rounded-2xl">
-      <button class="play-button bg-blue-700 p-2 rounded-full hover:scale-105 transition-transform hover:bg-blue-900">
+    <div class="record-demo flex mt-5 p-2 bg-gray-300 justify-center gap-12 items-center rounded-2xl">
+      <button class="play-button bg-black p-2 rounded-full hover:scale-105 transition-transform ">
         <svg class="w-6 h-6" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <polygon points="30,20 85,50 30,80" fill="white" />
         </svg>
@@ -47,14 +47,14 @@
       <div class="progress-bar cursor-pointer">
         <svg width="300" height="10">
           <rect width="300" height="10" rx="10" fill="white" ry="70" />
-          <rect id="progressFillVocals" width="100" height="10" rx="10" ry="70" fill="blue" />
+          <rect id="progressFillVocals" width="100" height="10" rx="10" ry="70" fill="" />
         </svg>
       </div>
     </div>
 
     <!-- Instrument Playback Section -->
-    <div class="instrument-demo flex mt-5 p-2 bg-gray-400 justify-center gap-8 items-center rounded-2xl">
-      <button class="play-button bg-blue-700 p-2 rounded-full hover:scale-105 transition-transform hover:bg-blue-900">
+    <div class="instrument-demo flex mt-5 p-2 bg-gray-300 justify-center gap-8 items-center rounded-2xl">
+      <button class="play-button bg-black p-2 rounded-full hover:scale-105 transition-transform ">
         <svg class="w-6 h-6" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <polygon points="30,20 85,50 30,80" fill="white" />
         </svg>
@@ -63,16 +63,18 @@
       <div class="progress-bar cursor-pointer">
         <svg width="300" height="10">
           <rect width="300" height="10" rx="10" fill="white" ry="70" />
-          <rect id="progressFillInstrument" width="100" height="10" rx="10" ry="70" fill="blue" />
+          <rect id="progressFillInstrument" width="100" height="10" rx="10" ry="70" fill="" />
         </svg>
       </div>
     </div>
 
     <!-- Try It Button -->
-    <button class="try-it bg-blue-700 px-7 mx-auto mt-7 flex justify-center items-center hover:scale-105 transition-transform hover:bg-blue-900 h-12 text-white font-bold rounded-3xl">
+    <button class="try-it bg-black px-7 mx-auto mt-7 flex justify-center items-center hover:scale-105 transition-transform hover:bg-white hover:text-black h-12 text-white font-bold rounded-3xl">
       Try It
     </button>
   </main>
+
+ 
 
 </body>
 
